@@ -8,7 +8,7 @@
 <br />
 <p align="center">
     <!--- relative path means image/image.png instead of https://etc... -->
-    <img src="figs/last_fig_cycl" alt="Logo" width="500" height="400">                           
+    <img src="figs/last_fig_cycl.png" alt="Logo" width="500" height="400">                           
 </a>
 
   <h3 align="center">A Toolbox to treat latency data (Linux based)</h3>
@@ -41,11 +41,40 @@
 
 1. (Optional) Click on `Fork`
 2. Clone the project on your local machine : `git clone https://github.com/mastererts/xenomai-latency-plotter.git`
-3. Install dependencies : `insert line to meet dependencies`
+3. Install dependencies : `python -m pip install -r requirements.txt`
+4. Install cyclictest : 
+```sh
+$ sudo apt install build-essential libnuma-dev
+$ git clone git://git.kernel.org/pub/scm/linux/kernel/git/clrkwllms/rt-tests.git
+$ cd rt-tests
+$ make all
+$ cp ./cyclictest /usr/bin
+$ rm -rf rt-tests
+```
+5. Install stress : `sudo apt install stress`
 
 ## Run
 
-<!--- how to run your app ? -->
+1. Cyclictest
+```sh
+# Assuming you're in the repo
+$ cd scripts
+$ sudo ./cyclic_test.sh
+```
+
+2. Xenomai Latency Test
+```sh
+# Assuming you're in the repo
+$ cd scripts
+$ sudo ./xeno_latency_test.sh
+```
+
+3. (Optional) Stress in another terminal
+```sh
+# Assuming you're in the repo
+$ cd scripts
+$ sudo ./stress_test.sh
+```
 
 ## Roadmap
 
@@ -95,6 +124,7 @@ Erwin Lejeune - [@spida_rwin](https://twitter.com/spida_rwin) - erwin.lejeune15@
 ## Contributors
 
 - [Erwin Lejeune](https://github.com/Guilyx)
+- [Lu Ken](https://github.com/kenplusplus)
 
 [contributors-shield]: https://img.shields.io/github/contributors/mastererts/xenomai-latency-plotter.svg?style=flat-square
 [contributors-url]: https://github.com/mastererts/xenomai-latency-plotter/graphs/contributors
