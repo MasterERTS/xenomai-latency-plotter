@@ -8,28 +8,27 @@
 <br />
 <p align="center">
     <!--- relative path means image/image.png instead of https://etc... -->
-    <img src="relativeimagepath" alt="Logo" width="468" height="463">                           
+    <img src="figs/last_fig_cycl" alt="Logo" width="500" height="400">                           
 </a>
 
-  <h3 align="center">Name of The Project</h3>
+  <h3 align="center">A Toolbox to treat latency data (Linux based)</h3>
 
   <p align="center">
-    What does it do ? Briefly.
+    Use the latency test of Xenomai or cyclictest to scan your system and plot the data as an histogram.
     <br />
-    <a href="https://github.com/master-coro/template/readme.md"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/mastererts/xenomai-latency-plotter/readme.md"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/master-coro/template">View Demo</a>
+    <a href="https://github.com/mastererts/xenomai-latency-plotter">View Demo</a>
     ·
-    <a href="https://github.com/master-coro/template/issues">Report Bug</a>
+    <a href="https://github.com/mastererts/xenomai-latency-plotter/issues">Report Bug</a>
     ·
-    <a href="https://github.com/master-coro/template/issues">Request Feature</a>
+    <a href="https://github.com/mastererts/xenomai-latency-plotter/issues">Request Feature</a>
   </p>
 </p>
 
 ## Table of Contents
 
-* [About the Project](#about-the-project)
 * [Setup](#setup)
 * [Run](#run)
 * [Roadmap](#roadmap)
@@ -38,28 +37,10 @@
 * [Contact](#contact)
 * [Contributors](#contributors)
 
-## About the Project
-
-<!---- what? who? how? what for? for whom? -->
-
-<p align="center">
-    <img src="image/of/the/project" alt="graph" width="800" height="300">
-  </a>
-</p>
-<br />
-<br />
-
-<!---- Could add a more in depth description here -->
-
-<p align="center">
-    <img src="image" alt="Logo" width="800" height="300">
-  </a>
-</p>
-
 ## Setup
 
 1. (Optional) Click on `Fork`
-2. Clone the project on your local machine : `git clone https://github.com/master-coro/template.git`
+2. Clone the project on your local machine : `git clone https://github.com/mastererts/xenomai-latency-plotter.git`
 3. Install dependencies : `insert line to meet dependencies`
 
 ## Run
@@ -68,7 +49,7 @@
 
 ## Roadmap
 
-See the [open issues](https://github.com/master-coro/template/issues) for a list of proposed features (and known issues).
+See the [open issues](https://github.com/mastererts/xenomai-latency-plotter/issues) for a list of proposed features (and known issues).
 
 ## Contribute
 
@@ -76,7 +57,7 @@ Contributions are what make the open source community such an amazing place to l
 
 ### Contribute on proposed features
 
-1. Choose any open issue from [here](https://github.com/master-coro/template/issues). 
+1. Choose any open issue from [here](https://github.com/mastererts/xenomai-latency-plotter/issues). 
 2. Comment on the issue: `Can I work on this?` and get assigned.
 3. Make changes to your `Fork` and send a PR.
 
@@ -115,15 +96,15 @@ Erwin Lejeune - [@spida_rwin](https://twitter.com/spida_rwin) - erwin.lejeune15@
 
 - [Erwin Lejeune](https://github.com/Guilyx)
 
-[contributors-shield]: https://img.shields.io/github/contributors/master-coro/template.svg?style=flat-square
-[contributors-url]: https://github.com/master-coro/template/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/master-coro/template.svg?style=flat-square
-[forks-url]: https://github.com/master-coro/template/network/members
-[stars-shield]: https://img.shields.io/github/stars/master-coro/template.svg?style=flat-square
-[stars-url]: https://github.com/master-coro/template/stargazers
-[issues-shield]: https://img.shields.io/github/issues/master-coro/template.svg?style=flat-square
-[issues-url]: https://github.com/master-coro/template/issues
-[license-shield]: https://img.shields.io/github/license/master-coro/template.svg?style=flat-square
-[license-url]: https://github.com/master-coro/template/blob/master/LICENSE.md
+[contributors-shield]: https://img.shields.io/github/contributors/mastererts/xenomai-latency-plotter.svg?style=flat-square
+[contributors-url]: https://github.com/mastererts/xenomai-latency-plotter/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/mastererts/xenomai-latency-plotter.svg?style=flat-square
+[forks-url]: https://github.com/mastererts/xenomai-latency-plotter/network/members
+[stars-shield]: https://img.shields.io/github/stars/mastererts/xenomai-latency-plotter.svg?style=flat-square
+[stars-url]: https://github.com/mastererts/xenomai-latency-plotter/stargazers
+[issues-shield]: https://img.shields.io/github/issues/mastererts/xenomai-latency-plotter.svg?style=flat-square
+[issues-url]: https://github.com/mastererts/xenomai-latency-plotter/issues
+[license-shield]: https://img.shields.io/github/license/mastererts/xenomai-latency-plotter.svg?style=flat-square
+[license-url]: https://github.com/mastererts/xenomai-latency-plotter/blob/master/LICENSE.md
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/erwinlejeune-lkn
