@@ -8,7 +8,7 @@
 <br />
 <p align="center">
     <!--- relative path means image/image.png instead of https://etc... -->
-    <img src="figs/last_fig_cycl.png" alt="Logo" width="500" height="400">                           
+    <img src="figs/last_lat_fig.png" alt="Logo" width="500" height="400">                           
 </a>
 
   <h3 align="center">A Toolbox to treat latency data (Linux based)</h3>
